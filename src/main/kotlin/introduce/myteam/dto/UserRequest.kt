@@ -1,1 +1,0 @@
-package introduce.myteam.dtodata class UserRequest(    val name: String,    val description: String,    val githubUrl: String,    val blogUrl: String,    val profileImg: String,)

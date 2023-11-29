@@ -1,0 +1,1 @@
+package introduce.myteam.domain.todos.dtoimport introduce.myteam.domain.todos.Tododata class CreateTodoRequest(    var userId: Long,    var value: String,) {    fun toEntity(): Todo {        return Todo(            userId = userId,            value = value        )    }}

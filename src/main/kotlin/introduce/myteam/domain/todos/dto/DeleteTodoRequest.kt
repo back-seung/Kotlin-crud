@@ -1,0 +1,1 @@
+package introduce.myteam.domain.todos.dtoimport introduce.myteam.domain.todos.Tododata class DeleteTodoRequest(var id: Long, var userId: Long, var value: String) {    fun toEntity(): Todo {        return Todo(            id = id,            userId = userId,            value = value        )    }}

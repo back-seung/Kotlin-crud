@@ -1,1 +1,1 @@
-package introduce.myteam.domain.user.controllerimport org.springframework.stereotype.Controllerimport org.springframework.web.bind.annotation.GetMapping@Controllerclass PageController {    @GetMapping("/register")    fun register() = "/register"}
+package introduce.myteam.domain.user.controllerimport org.springframework.stereotype.Controllerimport org.springframework.web.bind.annotation.GetMapping@Controllerclass PageController {    @GetMapping("/register")    fun register() = "register"}

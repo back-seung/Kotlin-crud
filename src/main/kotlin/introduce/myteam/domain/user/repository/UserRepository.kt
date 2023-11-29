@@ -1,0 +1,1 @@
+package introduce.myteam.domain.user.repositoryimport introduce.myteam.domain.user.Userimport org.springframework.data.jpa.repository.JpaRepositoryinterface UserRepository : JpaRepository<User, Long>

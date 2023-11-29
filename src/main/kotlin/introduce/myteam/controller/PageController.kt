@@ -1,1 +1,0 @@
-package introduce.myteam.controllerimport org.springframework.stereotype.Controllerimport org.springframework.web.bind.annotation.GetMapping@Controllerclass PageController {    @GetMapping("/")    fun index() = "/users"    @GetMapping("/register")    fun register() = "/register"}

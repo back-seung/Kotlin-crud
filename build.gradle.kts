@@ -40,7 +40,6 @@ dependencies {
     implementation("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
     implementation("com.h2database:h2")
-    implementation("commons-fileupload:commons-fileupload:1.5")
 
     runtimeOnly("org.springframework.boot:spring-boot-devtools")
     runtimeOnly("com.mysql:mysql-connector-j")
